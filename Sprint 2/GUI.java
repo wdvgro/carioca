@@ -10,7 +10,6 @@ public class GUI implements ActionListener {
     private JButton button;
     private JLabel label;
     private JPanel panel;
-    private JPanel panel1;
 
     public GUI(){
 
