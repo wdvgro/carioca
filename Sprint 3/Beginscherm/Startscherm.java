@@ -14,10 +14,6 @@ public class Startscherm {
     private JList <String> gameList;
 
     private JButton playButton;
-    private JButton addGamesButton;
-
-    private JLabel serverStatusLabel;
-
 
     public Startscherm (){
 
@@ -25,15 +21,17 @@ public class Startscherm {
         frame.setDefaultCloseOperation(EXIT_ON_CLOSE);
 
         panel = new JPanel();
-        panel.setLayout(new FlowLayout());
+        panel.setLayout(new BorderLayout());
 
-        gameListModel = new DefaultListModel<>();
-        gameList = new JList<>(gameListModel);
+        DefaultListModel<String> gameListModel = new DefaultListModel<>();
+        JList<String> gameList = new JList<>(gameListModel);
+        JScrollPane scrollPane = new JScrollPane(gameList);
+        panel.add(scrollPane, BorderLayout.CENTER);
 
         new JScrollPane(gameList);
 
         playButton = new JButton("Play");
-        playButton.setLayout(new FlowLayout());
+        playButton.setLayout(new BorderLayout());
         playButton.addActionListener(e -> {
 
             String selectedGame = gameList.getSelectedValue();
@@ -41,18 +39,9 @@ public class Startscherm {
 
         });
 
-        serverStatusLabel = new JLabel("Server Status: Not Connected");
 
-
-        addGamesButton = new JButton("Add Games");
-        addGamesButton.addActionListener(e -> {
-            // Implement the logic to add games to the list
-        });
-
+        panel.add(playButton,BorderLayout.SOUTH);
         panel.add(gameList);
-        panel.add(playButton);
-        panel.add(serverStatusLabel);
-        panel.add(addGamesButton);
 
         // Set layout manager and add components to the panel
 
