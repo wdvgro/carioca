@@ -1,0 +1,28 @@
+2023-09-30 17:54:17.345  INFO 21537 --- [main] nl.hanze.newgameserver.Main              : Starting Main on Gustavos-MacBook-Pro.local with PID 21537 (/Users/gustavocostaaraujo/Documents/College/2ᵉ Jaar/Intelligente systemen I & II/Project Intelligente Systemen I & II/carioca/GameServer/newgameserver-1.0.jar started by gustavocostaaraujo in /Users/gustavocostaaraujo/Documents/College/2ᵉ Jaar/Intelligente systemen I & II/Project Intelligente Systemen I & II/carioca)
+2023-09-30 17:54:17.352  INFO 21537 --- [main] nl.hanze.newgameserver.Main              : No active profile set, falling back to default profiles: default
+2023-09-30 17:54:20.219  INFO 21537 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-09-30 17:54:20.249  INFO 21537 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-30 17:54:20.250  INFO 21537 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-09-30 17:54:20.355  INFO 21537 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-30 17:54:20.355  INFO 21537 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2814 ms
+2023-09-30 17:54:20.589  INFO 21537 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'clientInboundChannelExecutor'
+2023-09-30 17:54:20.592  INFO 21537 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'clientOutboundChannelExecutor'
+2023-09-30 17:54:20.631  INFO 21537 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'messageBrokerTaskScheduler'
+2023-09-30 17:54:20.715  INFO 21537 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'brokerChannelExecutor'
+2023-09-30 17:54:21.093  INFO 21537 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2023-09-30 17:54:21.249  INFO 21537 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-09-30 17:54:21.251  INFO 21537 --- [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2023-09-30 17:54:21.252  INFO 21537 --- [main] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2023-09-30 17:54:21.252  INFO 21537 --- [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2023-09-30 17:54:21.266  INFO 21537 --- [main] nl.hanze.newgameserver.Main              : Started Main in 5.097 seconds (JVM running for 6.64)
+2023-09-30 17:54:21.274  INFO 21537 --- [main] main                                     : gameserver is now listening on port 7789
+2023-09-30 17:54:40.625  INFO 21537 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-30 17:54:40.646  INFO 21537 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-30 17:54:40.668  INFO 21537 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 20 ms
+2023-09-30 17:54:57.598  INFO 21537 --- [SpringContextShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopping...
+2023-09-30 17:54:57.598  INFO 21537 --- [SpringContextShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2023-09-30 17:54:57.599  INFO 21537 --- [SpringContextShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopped.
+2023-09-30 17:54:57.675  INFO 21537 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'brokerChannelExecutor'
+2023-09-30 17:54:57.676  INFO 21537 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2023-09-30 17:54:57.678  INFO 21537 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2023-09-30 17:54:57.678  INFO 21537 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'clientInboundChannelExecutor'
