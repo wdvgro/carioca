@@ -2,6 +2,7 @@ package Beginscherm;
 
 import javax.swing.*;
 import java.awt.*;
+import java.util.ArrayList;
 
 import static javax.swing.WindowConstants.EXIT_ON_CLOSE;
 
