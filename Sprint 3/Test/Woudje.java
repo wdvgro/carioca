@@ -1,5 +1,7 @@
 package Test;
 
+import Beginscherm.Game;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -14,12 +16,10 @@ public class Woudje {
     private JList<Game> gameList;
 
     private JButton playButton;
-    private JButton addGamesButton;
-
-    private JLabel serverStatusLabel;
 
 
     public Woudje() {
+
         frame = new JFrame("Start Screen");
         frame.setDefaultCloseOperation(EXIT_ON_CLOSE);
 
@@ -49,20 +49,8 @@ public class Woudje {
 
         });
 
-        serverStatusLabel = new JLabel("Server Status: Not Connected");
-
-        addGamesButton = new JButton("Add Games");
-        addGamesButton.addActionListener(e -> {
-            // Implement the logic to add games to the list
-
-
-            // You can add games to the gameListModel here
-        });
-
         panel.add(scrollPane);
         panel.add(playButton);
-        panel.add(serverStatusLabel);
-        panel.add(addGamesButton);
 
         frame.add(panel);
         frame.setSize(400, 500);
@@ -74,19 +62,4 @@ public class Woudje {
         new Woudje();
     }
 
-    // Custom class to represent a game
-    private class Game {
-        private String name;
-        private String description;
-
-        public Game(String name, String description) {
-            this.name = name;
-            this.description = description;
-        }
-
-        @Override
-        public String toString() {
-            return name;
-        }
-    }
 }
