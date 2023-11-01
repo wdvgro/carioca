@@ -10,6 +10,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Sprint 4" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Sprint 5" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/App" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

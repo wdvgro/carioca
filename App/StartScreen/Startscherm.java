@@ -1,4 +1,4 @@
-package Beginscherm;
+package StartScreen;
 
 import javax.swing.*;
 import java.awt.*;
@@ -45,6 +45,8 @@ public class Startscherm {
 
         Dimension buttonSize = new Dimension(0, 100);
         playButton.setPreferredSize(buttonSize);
+
+        playButton.setBackground(Color.GREEN);
 
         playButton.addActionListener(e -> {
 

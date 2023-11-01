@@ -1,4 +1,4 @@
-package Beginscherm;
+package StartScreen;
 
 // Custom class to represent a game
 public class Game {

@@ -1,6 +1,6 @@
 package Test;
 
-import Beginscherm.Game;
+import StartScreen.Game;
 
 import javax.swing.*;
 import java.awt.*;
