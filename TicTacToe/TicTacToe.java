@@ -2,54 +2,86 @@ import java.awt.*;
 import java.awt.event.*;
 import java.util.*;
 import javax.swing.*;
+import javax.swing.border.LineBorder;
 
-public class TicTacToe implements ActionListener{
 
-	Random random = new Random();
-	JFrame frame = new JFrame();
-	JPanel title_panel = new JPanel();
-	JPanel button_panel = new JPanel();
-	JLabel textfield = new JLabel();
-	JButton[] buttons = new JButton[9];
-	boolean player1_turn;
 
-	TicTacToe(){
-		
-		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		frame.setSize(800,800);
-		frame.getContentPane().setBackground(new Color(50,50,50));
-		frame.setLayout(new BorderLayout());
-		frame.setVisible(true);
-		
-		textfield.setBackground(new Color(25,25,25));
-		textfield.setForeground(new Color(25,255,0));
+public class TicTacToe implements ActionListener {
+    private JFrame frame;
+    JPanel west = new JPanel();
+    JPanel east = new JPanel();
+    JPanel south = new JPanel();
+    JPanel ttt = new JPanel();
+    Random random = new Random();
+    JLabel textfield = new JLabel();
+    JPanel title_panel = new JPanel();
+    JButton[] buttons = new JButton[9];
+    JButton rbutton = new JButton("return");
+    LineBorder border = new LineBorder(Color.BLACK,2);
+    LineBorder pborder = new LineBorder(new Color(174,129,40),40);
+    boolean player1_turn;
+
+    public TicTacToe() {
+        initialize();
+    }
+
+    public void initialize(){
+        frame = new JFrame();
+        this.frame.setTitle("Tic-Tac-Toe");
+        this.frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.frame.setExtendedState(JFrame.MAXIMIZED_BOTH);
+        this.frame.setResizable(false);
+        this.frame.setLocationRelativeTo(null);
+        this.frame.setBackground(new Color(244,177,47));
+
+		textfield.setForeground(new Color(250,250,250));
+        textfield.setBackground(new Color(244,177,47));
 		textfield.setFont(new Font("Ink Free",Font.BOLD,75));
 		textfield.setHorizontalAlignment(JLabel.CENTER);
 		textfield.setText("Tic-Tac-Toe");
 		textfield.setOpaque(true);
-		
-		title_panel.setLayout(new BorderLayout());
-		title_panel.setBounds(0,0,800,100);
-		
-		button_panel.setLayout(new GridLayout(3,3));
-		button_panel.setBackground(new Color(150,150,150));
-		
-		for(int i=0;i<9;i++) {
+        title_panel.setBackground(new Color(244,177,47));
+        
+        rbutton.setPreferredSize(new Dimension(200,70));
+        rbutton.setForeground(Color.WHITE);
+        rbutton.setBackground(Color.BLUE);
+        rbutton.setFont(new Font("Arial",Font.BOLD, 32));
+        west.add(rbutton);
+        west.setLayout(new FlowLayout(FlowLayout.LEFT,80,5));
+        west.setBackground(new Color(244,177,47));
+        east.setLayout(new FlowLayout(FlowLayout.LEFT,80,5));
+        east.setBackground(new Color(244,177,47));
+        south.setLayout(new FlowLayout(FlowLayout.LEFT,40,15));
+        south.setBackground(new Color(244,177,47));
+        ttt.setLayout(new FlowLayout(FlowLayout.TRAILING,10,10));
+        ttt.setLayout(new GridLayout(3,3));
+		ttt.setBackground(new Color(150,150,150));
+
+        title_panel.add(textfield);
+        ttt.setBorder(pborder);
+        ttt.setPreferredSize(new Dimension(200,200));
+        this.frame.add(south, BorderLayout.SOUTH);
+        this.frame.add(west, BorderLayout.WEST);
+        this.frame.add(east, BorderLayout.EAST);
+        this.frame.add(title_panel,BorderLayout.NORTH);
+        this.frame.add(ttt,BorderLayout.CENTER);
+        this.frame.setVisible(true);
+
+        for(int i=0;i<9;i++) {
 			buttons[i] = new JButton();
-			button_panel.add(buttons[i]);
-			buttons[i].setFont(new Font("MV Boli",Font.BOLD,120));
+			ttt.add(buttons[i]);
+			buttons[i].setFont(new Font("MV Boli",Font.BOLD,100));
+            buttons[i].setBorder(border);
+            buttons[i].setPreferredSize(new Dimension(20,20));
 			buttons[i].setFocusable(false);
 			buttons[i].addActionListener(this);
 		}
-		
-		title_panel.add(textfield);
-		frame.add(title_panel,BorderLayout.NORTH);
-		frame.add(button_panel);
-		
-		firstTurn();
-	}
+        
 
-	@Override
+        
+    }    
+
+    @Override
 	public void actionPerformed(ActionEvent e) {
 		
 		for(int i=0;i<9;i++) {
@@ -75,12 +107,12 @@ public class TicTacToe implements ActionListener{
 			}			
 		}
 	}
-	
-	public void firstTurn() {
+    public void firstTurn() {
 		
 		try {
 			Thread.sleep(2000);
 		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
@@ -93,8 +125,8 @@ public class TicTacToe implements ActionListener{
 			textfield.setText("O turn");
 		}
 	}
-	
-	public void check() {
+
+    public void check() {
 		//check X win conditions
 		if(
 				(buttons[0].getText()=="X") &&
@@ -233,12 +265,4 @@ public class TicTacToe implements ActionListener{
 		textfield.setText("O wins");
         
 	}
-
-    public void reset(){
-        for(int i=0;i<9;i++){
-            buttons[i].setText("");
-            buttons[i].setBackground(Color.WHITE);
-        } 
-        firstTurn();
-    }
 }
