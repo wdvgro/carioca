@@ -1,31 +1,169 @@
-2023-11-01 10:03:01.282  INFO 72465 --- [main] nl.hanze.newgameserver.Main              : Starting Main on Gustavos-MacBook-Pro.local with PID 72465 (/Users/gustavocostaaraujo/Documents/College/2ᵉ Jaar/Intelligente systemen I & II/Project Intelligente Systemen I & II/carioca/GameServer/newgameserver-1.0.jar started by gustavocostaaraujo in /Users/gustavocostaaraujo/Documents/College/2ᵉ Jaar/Intelligente systemen I & II/Project Intelligente Systemen I & II/carioca)
-2023-11-01 10:03:01.301  INFO 72465 --- [main] nl.hanze.newgameserver.Main              : No active profile set, falling back to default profiles: default
-2023-11-01 10:03:03.198  INFO 72465 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2023-11-01 10:03:03.220  INFO 72465 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-11-01 10:03:03.221  INFO 72465 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
-2023-11-01 10:03:03.354  INFO 72465 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-11-01 10:03:03.355  INFO 72465 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1943 ms
-2023-11-01 10:03:03.554  INFO 72465 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'clientInboundChannelExecutor'
-2023-11-01 10:03:03.557  INFO 72465 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'clientOutboundChannelExecutor'
-2023-11-01 10:03:03.602  INFO 72465 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'messageBrokerTaskScheduler'
-2023-11-01 10:03:03.689  INFO 72465 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'brokerChannelExecutor'
-2023-11-01 10:03:04.019  INFO 72465 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
-2023-11-01 10:03:04.152  INFO 72465 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2023-11-01 10:03:04.153  INFO 72465 --- [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
-2023-11-01 10:03:04.154  INFO 72465 --- [main] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
-2023-11-01 10:03:04.154  INFO 72465 --- [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
-2023-11-01 10:03:04.168  INFO 72465 --- [main] nl.hanze.newgameserver.Main              : Started Main in 3.624 seconds (JVM running for 4.508)
-2023-11-01 10:03:04.175  INFO 72465 --- [main] main                                     : gameserver is now listening on port 7789
-2023-11-01 10:03:08.147  INFO 72465 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-11-01 10:03:08.149  INFO 72465 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-11-01 10:03:08.168  INFO 72465 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 19 ms
-2023-11-01 10:04:03.688  INFO 72465 --- [MessageBroker-4] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[2 current WS(2)-HttpStream(0)-HttpPoll(0), 2 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(2)-CONNECTED(2)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 16, active threads = 0, queued tasks = 0, completed tasks = 78], outboundChannel[pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 2], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 3, completed tasks = 14]
-2023-11-01 10:04:32.317  INFO 72465 --- [main] main                                     : new client connected from /127.0.0.1:57000
-2023-11-01 10:04:32.340  WARN 72465 --- [Thread-3] client-thread <not logged in>            : Server exception: Connection reset, disconnecting client
-2023-11-01 10:15:42.890  INFO 72465 --- [SpringContextShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopping...
-2023-11-01 10:15:42.892  INFO 72465 --- [SpringContextShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
-2023-11-01 10:15:42.892  INFO 72465 --- [SpringContextShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopped.
-2023-11-01 10:15:42.971  INFO 72465 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'brokerChannelExecutor'
-2023-11-01 10:15:42.971  INFO 72465 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'messageBrokerTaskScheduler'
-2023-11-01 10:15:42.972  INFO 72465 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'clientOutboundChannelExecutor'
-2023-11-01 10:15:42.973  INFO 72465 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'clientInboundChannelExecutor'
+2023-11-13 15:10:02.446  INFO 11946 --- [main] nl.hanze.newgameserver.Main              : Starting Main on Gustavos-MacBook-Pro.local with PID 11946 (/Users/gustavocostaaraujo/Documents/College/2ᵉ Jaar/Intelligente systemen I & II/Project Intelligente Systemen I & II/carioca/GameServer/newgameserver-1.0.jar started by gustavocostaaraujo in /Users/gustavocostaaraujo/Documents/College/2ᵉ Jaar/Intelligente systemen I & II/Project Intelligente Systemen I & II/carioca)
+2023-11-13 15:10:02.473  INFO 11946 --- [main] nl.hanze.newgameserver.Main              : No active profile set, falling back to default profiles: default
+2023-11-13 15:10:04.548  INFO 11946 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-11-13 15:10:04.577  INFO 11946 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-13 15:10:04.579  INFO 11946 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-11-13 15:10:04.722  INFO 11946 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-13 15:10:04.723  INFO 11946 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2122 ms
+2023-11-13 15:10:04.989  INFO 11946 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'clientInboundChannelExecutor'
+2023-11-13 15:10:04.994  INFO 11946 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'clientOutboundChannelExecutor'
+2023-11-13 15:10:05.047  INFO 11946 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'messageBrokerTaskScheduler'
+2023-11-13 15:10:05.145  INFO 11946 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'brokerChannelExecutor'
+2023-11-13 15:10:05.519  INFO 11946 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2023-11-13 15:10:05.696  INFO 11946 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-11-13 15:10:05.699  INFO 11946 --- [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2023-11-13 15:10:05.699  INFO 11946 --- [main] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2023-11-13 15:10:05.700  INFO 11946 --- [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2023-11-13 15:10:05.717  INFO 11946 --- [main] nl.hanze.newgameserver.Main              : Started Main in 4.302 seconds (JVM running for 5.711)
+2023-11-13 15:10:05.726  INFO 11946 --- [main] main                                     : gameserver is now listening on port 7789
+2023-11-13 15:11:05.146  INFO 11946 --- [MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2023-11-13 15:11:42.451  INFO 11946 --- [main] main                                     : new client connected from /0:0:0:0:0:0:0:1:50766
+2023-11-13 15:11:50.117  INFO 11946 --- [Thread-2] client-thread <not logged in>            : issues command: 'get playerlist'
+2023-11-13 15:11:56.428  INFO 11946 --- [Thread-2] client-thread <not logged in>            : issues command: 'login Gustavo'
+2023-11-13 15:12:01.570  INFO 11946 --- [Thread-2] client-thread Gustavo                    : issues command: 'get playerlist'
+2023-11-13 15:12:47.901  INFO 11946 --- [SpringContextShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopping...
+2023-11-13 15:12:47.901  INFO 11946 --- [SpringContextShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2023-11-13 15:12:47.901  INFO 11946 --- [SpringContextShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopped.
+2023-11-13 15:12:47.975  INFO 11946 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'brokerChannelExecutor'
+2023-11-13 15:12:47.976  INFO 11946 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2023-11-13 15:12:47.978  INFO 11946 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2023-11-13 15:12:47.978  INFO 11946 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'clientInboundChannelExecutor'
+2023-11-13 15:32:10.981  INFO 12189 --- [main] nl.hanze.newgameserver.Main              : Starting Main on Gustavos-MacBook-Pro.local with PID 12189 (/Users/gustavocostaaraujo/Documents/College/2ᵉ Jaar/Intelligente systemen I & II/Project Intelligente Systemen I & II/carioca/GameServer/newgameserver-1.0.jar started by gustavocostaaraujo in /Users/gustavocostaaraujo/Documents/College/2ᵉ Jaar/Intelligente systemen I & II/Project Intelligente Systemen I & II/carioca)
+2023-11-13 15:32:10.988  INFO 12189 --- [main] nl.hanze.newgameserver.Main              : No active profile set, falling back to default profiles: default
+2023-11-13 15:32:12.956  INFO 12189 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-11-13 15:32:12.982  INFO 12189 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-13 15:32:12.983  INFO 12189 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-11-13 15:32:13.108  INFO 12189 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-13 15:32:13.109  INFO 12189 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2016 ms
+2023-11-13 15:32:13.332  INFO 12189 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'clientInboundChannelExecutor'
+2023-11-13 15:32:13.337  INFO 12189 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'clientOutboundChannelExecutor'
+2023-11-13 15:32:13.368  INFO 12189 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'messageBrokerTaskScheduler'
+2023-11-13 15:32:13.442  INFO 12189 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'brokerChannelExecutor'
+2023-11-13 15:32:13.796  INFO 12189 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2023-11-13 15:32:13.947  INFO 12189 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-11-13 15:32:13.949  INFO 12189 --- [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2023-11-13 15:32:13.949  INFO 12189 --- [main] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2023-11-13 15:32:13.949  INFO 12189 --- [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2023-11-13 15:32:13.966  INFO 12189 --- [main] nl.hanze.newgameserver.Main              : Started Main in 3.822 seconds (JVM running for 4.789)
+2023-11-13 15:32:13.975  INFO 12189 --- [main] main                                     : gameserver is now listening on port 7789
+2023-11-13 15:32:26.045  INFO 12189 --- [main] main                                     : new client connected from /127.0.0.1:51444
+2023-11-13 15:32:35.196  INFO 12189 --- [Thread-2] client-thread <not logged in>            : issues command: 'login Gustavo'
+2023-11-13 15:32:46.571  INFO 12189 --- [Thread-2] client-thread Gustavo                    : issues command: 'login gustavo'
+2023-11-13 15:32:46.572  INFO 12189 --- [Thread-2] client-thread Gustavo                    : command exception: 'already logged in'
+2023-11-13 15:32:49.541  INFO 12189 --- [Thread-2] client-thread Gustavo                    : issues command: 'r'
+2023-11-13 15:32:49.542  INFO 12189 --- [Thread-2] client-thread Gustavo                    : command exception: 'unknown command'
+2023-11-13 15:32:57.026  INFO 12189 --- [Thread-2] client-thread Gustavo                    : issues command: 'get playerlist'
+2023-11-13 15:33:00.215  INFO 12189 --- [Thread-2] client-thread Gustavo                    : issues command: ''
+2023-11-13 15:33:00.974  INFO 12189 --- [Thread-2] client-thread Gustavo                    : issues command: ''
+2023-11-13 15:33:01.493  INFO 12189 --- [Thread-2] client-thread Gustavo                    : issues command: ''
+2023-11-13 15:33:03.578  INFO 12189 --- [Thread-2] client-thread Gustavo                    : issues command: ''
+2023-11-13 15:33:13.442  INFO 12189 --- [MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2023-11-13 15:34:32.065  INFO 12189 --- [main] main                                     : new client connected from /127.0.0.1:51519
+2023-11-13 15:34:34.052  INFO 12189 --- [Thread-3] client-thread <not logged in>            : issues command: ''
+2023-11-13 15:34:35.250  INFO 12189 --- [Thread-3] client-thread <not logged in>            : issues command: ''
+2023-11-13 15:34:35.956  INFO 12189 --- [Thread-3] client-thread <not logged in>            : issues command: ''
+2023-11-13 15:35:02.839  INFO 12189 --- [main] main                                     : new client connected from /127.0.0.1:51550
+2023-11-13 15:35:04.424  INFO 12189 --- [Thread-4] client-thread <not logged in>            : issues command: ''
+2023-11-13 15:35:05.629  INFO 12189 --- [Thread-4] client-thread <not logged in>            : issues command: ''
+2023-11-13 15:35:11.080  INFO 12189 --- [Thread-4] client-thread <not logged in>            : issues command: 'get playeriist'
+2023-11-13 15:35:11.080  INFO 12189 --- [Thread-4] client-thread <not logged in>            : command exception: 'missing arguments'
+2023-11-13 15:35:13.127  INFO 12189 --- [Thread-4] client-thread <not logged in>            : issues command: ''
+2023-11-13 15:37:06.219  INFO 12189 --- [main] main                                     : new client connected from /127.0.0.1:51612
+2023-11-13 15:37:10.029  INFO 12189 --- [Thread-5] client-thread <not logged in>            : issues command: ''
+2023-11-13 15:37:39.006  INFO 12189 --- [main] main                                     : new client connected from /127.0.0.1:51631
+2023-11-13 15:37:44.843  INFO 12189 --- [Thread-6] client-thread <not logged in>            : issues command: ''
+2023-11-13 15:37:52.965  INFO 12189 --- [main] main                                     : new client connected from /127.0.0.1:51649
+2023-11-13 15:37:57.354  INFO 12189 --- [Thread-7] client-thread <not logged in>            : issues command: 'get playerlist'
+2023-11-13 15:38:04.011  INFO 12189 --- [Thread-7] client-thread <not logged in>            : issues command: ''
+2023-11-13 15:38:11.153  INFO 12189 --- [Thread-7] client-thread <not logged in>            : issues command: 'login Gustavo'
+2023-11-13 15:38:11.154  INFO 12189 --- [Thread-7] login-command                            : reviving Gustavo from offline player list! Welcome back.
+2023-11-13 15:38:17.321  INFO 12189 --- [Thread-7] client-thread Gustavo                    : issues command: 'get playerlist'
+2023-11-13 15:38:20.262  INFO 12189 --- [Thread-7] client-thread Gustavo                    : issues command: ''
+2023-11-13 15:38:36.400  INFO 12189 --- [main] main                                     : new client connected from /127.0.0.1:51671
+2023-11-13 15:38:38.025  INFO 12189 --- [Thread-8] client-thread <not logged in>            : issues command: 'hi'
+2023-11-13 15:38:38.026  INFO 12189 --- [Thread-8] client-thread <not logged in>            : command exception: 'unknown command'
+2023-11-13 15:38:55.832  INFO 12189 --- [main] main                                     : new client connected from /127.0.0.1:51685
+2023-11-13 15:39:00.823  INFO 12189 --- [Thread-9] client-thread <not logged in>            : issues command: 'get playerlist'
+2023-11-13 15:39:09.843  INFO 12189 --- [Thread-9] client-thread <not logged in>            : issues command: 'login Gustavo'
+2023-11-13 15:39:09.843  INFO 12189 --- [Thread-9] login-command                            : reviving Gustavo from offline player list! Welcome back.
+2023-11-13 15:39:50.100  INFO 12189 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-13 15:39:50.100  INFO 12189 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-13 15:39:50.109  INFO 12189 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2023-11-13 15:39:53.727  INFO 12189 --- [http-nio-8081-exec-8] api-controller                           : decoded JWT token: com.auth0.jwt.JWTDecoder@dcb21a9
+2023-11-13 15:39:57.374  INFO 12189 --- [http-nio-8081-exec-5] api-controller                           : decoded JWT token: com.auth0.jwt.JWTDecoder@733d392
+2023-11-13 15:39:57.545  INFO 12189 --- [http-nio-8081-exec-10] api-controller                           : decoded JWT token: com.auth0.jwt.JWTDecoder@4084d9ae
+2023-11-13 15:40:01.988  INFO 12189 --- [http-nio-8081-exec-10] api-controller                           : decoded JWT token: com.auth0.jwt.JWTDecoder@3e45c664
+2023-11-13 15:40:01.990  INFO 12189 --- [http-nio-8081-exec-3] api-controller                           : decoded JWT token: com.auth0.jwt.JWTDecoder@c549da2
+2023-11-13 15:41:36.110  INFO 12189 --- [main] main                                     : new client connected from /127.0.0.1:51770
+2023-11-13 15:42:00.592  INFO 12189 --- [Thread-12] client-thread <not logged in>            : issues command: 'login Gustavo'
+2023-11-13 15:42:00.593  INFO 12189 --- [Thread-12] login-command                            : reviving Gustavo from offline player list! Welcome back.
+2023-11-13 15:43:32.551  INFO 12189 --- [SpringContextShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopping...
+2023-11-13 15:43:32.551  INFO 12189 --- [SpringContextShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2023-11-13 15:43:32.551  INFO 12189 --- [SpringContextShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopped.
+2023-11-13 15:43:32.633  INFO 12189 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'brokerChannelExecutor'
+2023-11-13 15:43:32.633  INFO 12189 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2023-11-13 15:43:32.634  INFO 12189 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2023-11-13 15:43:32.634  INFO 12189 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'clientInboundChannelExecutor'
+2023-11-13 15:44:20.586  INFO 12340 --- [main] nl.hanze.newgameserver.Main              : Starting Main on Gustavos-MacBook-Pro.local with PID 12340 (/Users/gustavocostaaraujo/Documents/College/2ᵉ Jaar/Intelligente systemen I & II/Project Intelligente Systemen I & II/carioca/GameServer/newgameserver-1.0.jar started by gustavocostaaraujo in /Users/gustavocostaaraujo/Documents/College/2ᵉ Jaar/Intelligente systemen I & II/Project Intelligente Systemen I & II/carioca)
+2023-11-13 15:44:20.591  INFO 12340 --- [main] nl.hanze.newgameserver.Main              : No active profile set, falling back to default profiles: default
+2023-11-13 15:44:22.108  INFO 12340 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-11-13 15:44:22.137  INFO 12340 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-13 15:44:22.137  INFO 12340 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-11-13 15:44:22.241  INFO 12340 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-13 15:44:22.241  INFO 12340 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1532 ms
+2023-11-13 15:44:22.415  INFO 12340 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'clientInboundChannelExecutor'
+2023-11-13 15:44:22.419  INFO 12340 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'clientOutboundChannelExecutor'
+2023-11-13 15:44:22.453  INFO 12340 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'messageBrokerTaskScheduler'
+2023-11-13 15:44:22.512  INFO 12340 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'brokerChannelExecutor'
+2023-11-13 15:44:22.819  INFO 12340 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2023-11-13 15:44:22.973  INFO 12340 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-11-13 15:44:22.975  INFO 12340 --- [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2023-11-13 15:44:22.975  INFO 12340 --- [main] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2023-11-13 15:44:22.976  INFO 12340 --- [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2023-11-13 15:44:22.993  INFO 12340 --- [main] nl.hanze.newgameserver.Main              : Started Main in 3.25 seconds (JVM running for 4.109)
+2023-11-13 15:44:23.005  INFO 12340 --- [main] main                                     : gameserver is now listening on port 7789
+2023-11-13 15:44:24.155  INFO 12340 --- [main] main                                     : new client connected from /127.0.0.1:51851
+2023-11-13 15:44:29.163  INFO 12340 --- [Thread-2] client-thread <not logged in>            : issues command: ''
+2023-11-13 15:44:45.427  INFO 12340 --- [main] main                                     : new client connected from /127.0.0.1:51875
+2023-11-13 15:44:47.153  INFO 12340 --- [Thread-3] client-thread <not logged in>            : issues command: ''
+2023-11-13 15:45:21.404  INFO 12340 --- [main] main                                     : new client connected from /127.0.0.1:51903
+2023-11-13 15:45:22.512  INFO 12340 --- [MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2023-11-13 15:45:31.946  INFO 12340 --- [main] main                                     : new client connected from /127.0.0.1:51913
+2023-11-13 15:45:59.645  INFO 12340 --- [main] main                                     : new client connected from /127.0.0.1:51927
+2023-11-13 15:46:09.806  INFO 12340 --- [Thread-6] client-thread <not logged in>            : issues command: 'get playerlist'
+2023-11-13 15:46:16.831  INFO 12340 --- [Thread-6] client-thread <not logged in>            : issues command: 'login Gustavo'
+2023-11-13 15:47:02.745  INFO 12340 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-13 15:47:02.745  INFO 12340 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-13 15:47:02.753  INFO 12340 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2023-11-13 15:50:31.368  INFO 12340 --- [SpringContextShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopping...
+2023-11-13 15:50:31.369  INFO 12340 --- [SpringContextShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2023-11-13 15:50:31.369  INFO 12340 --- [SpringContextShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopped.
+2023-11-13 15:50:31.455  INFO 12340 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'brokerChannelExecutor'
+2023-11-13 15:50:31.456  INFO 12340 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2023-11-13 15:50:31.458  INFO 12340 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2023-11-13 15:50:31.458  INFO 12340 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'clientInboundChannelExecutor'
+2023-11-13 15:59:47.336  INFO 12466 --- [main] nl.hanze.newgameserver.Main              : Starting Main on Gustavos-MacBook-Pro.local with PID 12466 (/Users/gustavocostaaraujo/Documents/College/2ᵉ Jaar/Intelligente systemen I & II/Project Intelligente Systemen I & II/carioca/GameServer/newgameserver-1.0.jar started by gustavocostaaraujo in /Users/gustavocostaaraujo/Documents/College/2ᵉ Jaar/Intelligente systemen I & II/Project Intelligente Systemen I & II/carioca)
+2023-11-13 15:59:47.344  INFO 12466 --- [main] nl.hanze.newgameserver.Main              : No active profile set, falling back to default profiles: default
+2023-11-13 15:59:49.307  INFO 12466 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-11-13 15:59:49.349  INFO 12466 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-13 15:59:49.350  INFO 12466 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-11-13 15:59:49.450  INFO 12466 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-13 15:59:49.450  INFO 12466 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1998 ms
+2023-11-13 15:59:49.631  INFO 12466 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'clientInboundChannelExecutor'
+2023-11-13 15:59:49.635  INFO 12466 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'clientOutboundChannelExecutor'
+2023-11-13 15:59:49.664  INFO 12466 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'messageBrokerTaskScheduler'
+2023-11-13 15:59:49.740  INFO 12466 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'brokerChannelExecutor'
+2023-11-13 15:59:50.081  INFO 12466 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2023-11-13 15:59:50.222  INFO 12466 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-11-13 15:59:50.223  INFO 12466 --- [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2023-11-13 15:59:50.224  INFO 12466 --- [main] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2023-11-13 15:59:50.224  INFO 12466 --- [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2023-11-13 15:59:50.239  INFO 12466 --- [main] nl.hanze.newgameserver.Main              : Started Main in 3.885 seconds (JVM running for 4.897)
+2023-11-13 15:59:50.247  INFO 12466 --- [main] main                                     : gameserver is now listening on port 7789
+2023-11-13 16:00:00.601  INFO 12466 --- [main] main                                     : new client connected from /127.0.0.1:52279
+2023-11-13 16:00:06.921  INFO 12466 --- [Thread-2] client-thread <not logged in>            : issues command: 'login gustavo'
+2023-11-13 16:00:39.956  INFO 12466 --- [main] main                                     : new client connected from /127.0.0.1:52306
+2023-11-13 16:00:49.747  INFO 12466 --- [MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2023-11-13 16:01:13.956  INFO 12466 --- [main] main                                     : new client connected from /127.0.0.1:52325
+2023-11-13 16:01:20.348  INFO 12466 --- [Thread-4] client-thread <not logged in>            : issues command: 'get playerlist'
+2023-11-13 16:01:28.535  INFO 12466 --- [Thread-4] client-thread <not logged in>            : issues command: 'login Collin'
