@@ -1,4 +1,4 @@
-package StartScreen;
+package App.StartScreen;
 
 // Custom class to represent a game
 public class Game {

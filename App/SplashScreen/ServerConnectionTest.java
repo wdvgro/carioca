@@ -1,4 +1,4 @@
-package SplashScreen;
+package App.SplashScreen;
 
 import java.io.IOException;
 import java.net.Socket;

@@ -1,4 +1,4 @@
-package StartScreen;
+package App.StartScreen;
 
 import javax.swing.*;
 import java.awt.*;

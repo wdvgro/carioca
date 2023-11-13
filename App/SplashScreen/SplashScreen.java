@@ -1,4 +1,4 @@
-package SplashScreen;
+package App.SplashScreen;
 
 import javax.swing.*;
 import java.awt.*;

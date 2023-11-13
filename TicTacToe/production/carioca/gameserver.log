@@ -167,3 +167,20 @@
 2023-11-13 16:01:13.956  INFO 12466 --- [main] main                                     : new client connected from /127.0.0.1:52325
 2023-11-13 16:01:20.348  INFO 12466 --- [Thread-4] client-thread <not logged in>            : issues command: 'get playerlist'
 2023-11-13 16:01:28.535  INFO 12466 --- [Thread-4] client-thread <not logged in>            : issues command: 'login Collin'
+2023-11-13 16:10:21.979  INFO 12466 --- [main] main                                     : new client connected from /127.0.0.1:52568
+2023-11-13 16:10:32.875  INFO 12466 --- [Thread-5] client-thread <not logged in>            : issues command: 'get playerlist'
+2023-11-13 16:10:40.926  INFO 12466 --- [Thread-5] client-thread <not logged in>            : issues command: 'login Collin'
+2023-11-13 16:10:40.927  INFO 12466 --- [Thread-5] login-command                            : reviving Collin from offline player list! Welcome back.
+2023-11-13 16:10:45.140  INFO 12466 --- [Thread-5] client-thread Collin                     : issues command: ''
+2023-11-13 16:10:45.705  INFO 12466 --- [Thread-5] client-thread Collin                     : issues command: ''
+2023-11-13 16:11:00.460  INFO 12466 --- [main] main                                     : new client connected from /127.0.0.1:52595
+2023-11-13 16:11:06.716  INFO 12466 --- [Thread-6] client-thread <not logged in>            : issues command: 'get playerlist'
+2023-11-13 16:11:12.396  INFO 12466 --- [Thread-6] client-thread <not logged in>            : issues command: 'login Collin'
+2023-11-13 16:11:12.397  INFO 12466 --- [Thread-6] login-command                            : reviving Collin from offline player list! Welcome back.
+2023-11-13 16:11:23.940  INFO 12466 --- [SpringContextShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopping...
+2023-11-13 16:11:23.940  INFO 12466 --- [SpringContextShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2023-11-13 16:11:23.940  INFO 12466 --- [SpringContextShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopped.
+2023-11-13 16:11:24.019  INFO 12466 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'brokerChannelExecutor'
+2023-11-13 16:11:24.019  INFO 12466 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2023-11-13 16:11:24.020  INFO 12466 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2023-11-13 16:11:24.021  INFO 12466 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'clientInboundChannelExecutor'
