@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3cd19af8-3c99-4eee-a060-f8bfcacdc791" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/carioca.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/newgameserver_1_01.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/newgameserver_1_02.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules 2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/carioca.app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/carioca.app.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/carioca.app.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/carioca.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/SplashScreen/GameLogo3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/SplashScreen/ServerConnectionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/SplashScreen/SplashScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/StartScreen/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/StartScreen/Startscherm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUStictactoe/TicTacToe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameServer/Kick-off Project ISY1&amp;2 (versie 2023).pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameServer/newgameserver-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameServer/protocol-newgameserver.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameServer/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameServer/server.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameServer/student-readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameServer/websocket_protocol.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint 2/GUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint 3/Test/JLabelAndJListSpacingExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint 3/Test/ServerConnectedScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint 5/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Woudje.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/TicTacToe.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/production/carioca/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/production/carioca/.idea/carioca.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/production/carioca/.idea/icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/production/carioca/.idea/libraries/newgameserver_1_01.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/production/carioca/.idea/libraries/newgameserver_1_02.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/production/carioca/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/production/carioca/.idea/modules 2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/production/carioca/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/production/carioca/.idea/modules/app/carioca.app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/production/carioca/.idea/modules/app/carioca.app.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/production/carioca/.idea/modules/app/carioca.app.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/production/carioca/.idea/modules/carioca.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/production/carioca/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/production/carioca/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/production/carioca/App/SplashScreen/GameLogo3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/production/carioca/App/SplashScreen/ServerConnectionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/production/carioca/App/SplashScreen/SplashScreen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/production/carioca/App/StartScreen/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/production/carioca/App/StartScreen/Startscherm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/production/carioca/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/production/carioca/GUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/production/carioca/GUStictactoe/TicTacToe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/production/carioca/GameServer/Kick-off Project ISY1&amp;2 (versie 2023).pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/production/carioca/GameServer/newgameserver-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/production/carioca/GameServer/protocol-newgameserver.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/production/carioca/GameServer/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/production/carioca/GameServer/server.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/production/carioca/GameServer/student-readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/production/carioca/GameServer/websocket_protocol.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/production/carioca/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/production/carioca/Test/JLabelAndJListSpacingExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/production/carioca/Test/ServerConnectedScreen$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/production/carioca/Test/ServerConnectedScreen$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/production/carioca/Test/ServerConnectedScreen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/production/carioca/Test/Woudje.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/production/carioca/carioca.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/production/carioca/gameserver.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/production/carioca/gameserver.log.2023-11-12.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/production/carioca/server.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/carioca.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gameserver.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gameserver.log.2023-11-12.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.properties" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2Y8APeGxsYgOa7VhKL6niiOGZ2W" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+    <option name="sortByType" value="true" />
+    <option name="sortKey" value="BY_TYPE" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "Testing-Gustavo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3cd19af8-3c99-4eee-a060-f8bfcacdc791" name="Changes" comment="" />
+      <created>1699896809510</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699896809510</updated>
+      <workItem from="1699896810581" duration="500000" />
+      <workItem from="1699907956879" duration="471000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
