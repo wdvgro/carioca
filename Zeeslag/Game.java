@@ -1,4 +1,4 @@
-package oop.Zeeslag;
+package Zeeslag;
 
 public class Game {
     public static void main(String[] args) {

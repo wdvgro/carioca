@@ -1,4 +1,4 @@
-package oop.Zeeslag;
+package Zeeslag
 
 public class ShipNotAvailableExeption extends Throwable {
 }

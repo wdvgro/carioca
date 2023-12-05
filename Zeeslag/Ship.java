@@ -1,4 +1,4 @@
-package oop.Zeeslag;
+package Zeeslag;
 
 import java.util.ArrayList;
 import java.util.List;
